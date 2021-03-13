@@ -1,5 +1,3 @@
-
-
 def solve(board):
     """
     Solves a sudoku board using backtracking
@@ -69,8 +67,3 @@ def valid(board, num, pos):
             if board[i][j] == num and (i,j) != pos:
                 return False
     return True
-
-
-print_board(board)
-solve(board)
-print_board(board)
